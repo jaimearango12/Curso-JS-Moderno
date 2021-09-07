@@ -8,3 +8,9 @@ const carrito = [
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
 ]
+
+//comprueba si una valor exsiste
+const result = meses.includes('Enero');
+
+//para comprobar lo anterior en un arreglo se usa 
+const exist= carrito.some(producto => producto.nombre === 'Celular'); 
